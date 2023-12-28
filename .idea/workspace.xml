@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8be96d25-8331-45c7-9e93-01cf467a5677" name="Changes" comment="test : add tests classes for test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/user/UserGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/DataForTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/DataForTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/ChangingUserDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/ChangingUserDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/CreatingUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/CreatingUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/UserLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/UserLoginTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8be96d25-8331-45c7-9e93-01cf467a5677" name="Changes" comment="style : little fix code style" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +51,7 @@
     "JUnit.CreatingUserTest.testCreateUserNoPartDataReturnErrorAnd403.executor": "Run",
     "JUnit.UserLoginTest.loginUserTest.executor": "Run",
     "JUnit.UserLoginTest.testLoginUserIncorrectDataReturnErrorAnd401.executor": "Run",
+    "Maven.Diplom_2 [test].executor": "Run",
     "Maven.Diplom_2 [verify].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -193,12 +186,30 @@
       <option name="project" value="LOCAL" />
       <updated>1703696696487</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test : add tests create, login and update user">
+      <option name="closed" value="true" />
+      <created>1703785235667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703785235667</updated>
+    </task>
+    <task id="LOCAL-00004" summary="style : little fix code style">
+      <option name="closed" value="true" />
+      <created>1703785339190</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703785339190</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test : add JUnit 4, RestAssured, Allure and javafaker in pom" />
     <MESSAGE value="test : add tests classes for test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test : add tests classes for test" />
+    <MESSAGE value="test : add tests create, login and update user" />
+    <MESSAGE value="style : little fix code style" />
+    <option name="LAST_COMMIT_MESSAGE" value="style : little fix code style" />
   </component>
 </project>
