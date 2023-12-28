@@ -8,10 +8,8 @@ import org.junit.Test;
 import ru.yandex.practicum.user.User;
 import ru.yandex.practicum.user.UserGenerator;
 
-import static org.apache.http.HttpStatus.SC_ACCEPTED;
 import static org.apache.http.HttpStatus.SC_FORBIDDEN;
 import static org.apache.http.HttpStatus.SC_OK;
-import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.Matchers.matchesRegex;
 
 public class CreatingUserTest {

@@ -66,13 +66,13 @@ public class DataForTests {
 
     @Step("Create basic user for use in tests")
     public static Response deleteUser() {
-        if (accessToken != null){
+        if (accessToken != null) {
             return given()
                     .header("Content-Type", "application/json")
                     .header("Authorization", accessToken)
                     .when()
                     .delete(URI_FOR_UPDATE_OR_DELETE_USER);
         }
-       return null;
+        return null;
     }
 }

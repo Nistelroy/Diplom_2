@@ -31,6 +31,7 @@ public class ChangingUserDataTest {
                 .statusCode(SC_OK)
                 .assertThat().body("success", equalTo(true));
     }
+
     @Test
     public void testUpdateUserNewPasswordReturnTrueAnd200() {
         DataForTests.createUserInApi(user);
@@ -40,6 +41,7 @@ public class ChangingUserDataTest {
                 .statusCode(SC_OK)
                 .assertThat().body("success", equalTo(true));
     }
+
     @Test
     public void testUpdateUserNewNameReturnTrueAnd200() {
         DataForTests.createUserInApi(user);
