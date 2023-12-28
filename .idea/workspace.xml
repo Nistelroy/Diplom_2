@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8be96d25-8331-45c7-9e93-01cf467a5677" name="Changes" comment="test : add JUnit 4, RestAssured, Allure and javafaker in pom">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/DataForTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/ChangingUserDataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/CreateOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/CreatingUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/ReceivingOrdersFromUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/UserLoginTest.java" afterDir="false" />
+    <list default="true" id="8be96d25-8331-45c7-9e93-01cf467a5677" name="Changes" comment="test : add tests classes for test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/user/UserGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/DataForTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/DataForTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/ChangingUserDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/ChangingUserDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/CreatingUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/CreatingUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/UserLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/UserLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,18 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "JUnit.All in Diplom_2.executor": "Run",
+    "JUnit.ChangingUserDataTest.executor": "Run",
+    "JUnit.ChangingUserDataTest.testUpdataDataUserNewDataReturnTrueAnd200.executor": "Run",
+    "JUnit.ChangingUserDataTest.testUpdataDataUserNewDataWithoutAutorizReturnFalseAnd401.executor": "Run",
+    "JUnit.ChangingUserDataTest.testUpdateUserNewDataReturnTrueAnd20.executor": "Run",
+    "JUnit.CreatingUserTest.createUserTest.executor": "Run",
+    "JUnit.CreatingUserTest.deleteUserTest.executor": "Run",
+    "JUnit.CreatingUserTest.executor": "Run",
+    "JUnit.CreatingUserTest.loginUserTest.executor": "Run",
+    "JUnit.CreatingUserTest.testCreateUserAlreadyRegisteredDataReturnErrorAnd403.executor": "Run",
+    "JUnit.CreatingUserTest.testCreateUserNoPartDataReturnErrorAnd403.executor": "Run",
+    "JUnit.UserLoginTest.loginUserTest.executor": "Run",
+    "JUnit.UserLoginTest.testLoginUserIncorrectDataReturnErrorAnd401.executor": "Run",
     "Maven.Diplom_2 [verify].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -60,18 +71,93 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="All in Diplom_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ChangingUserDataTest">
+    <configuration name="ChangingUserDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practicum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practicum" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.ChangingUserDataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChangingUserDataTest.testUpdataDataUserNewDataReturnTrueAnd200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practicum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practicum" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.ChangingUserDataTest" />
+      <option name="METHOD_NAME" value="testUpdataDataUserNewDataReturnTrueAnd200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChangingUserDataTest.testUpdataDataUserNewDataWithoutAutorizReturnFalseAnd401" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practicum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practicum" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.ChangingUserDataTest" />
+      <option name="METHOD_NAME" value="testUpdataDataUserNewDataWithoutAutorizReturnFalseAnd401" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChangingUserDataTest.testUpdateUserNewDataReturnTrueAnd20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practicum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practicum" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.ChangingUserDataTest" />
+      <option name="METHOD_NAME" value="testUpdateUserNewDataReturnTrueAnd20" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserLoginTest.testLoginUserIncorrectDataReturnErrorAnd401" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practicum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practicum" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.UserLoginTest" />
+      <option name="METHOD_NAME" value="testLoginUserIncorrectDataReturnErrorAnd401" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Diplom_2" />
+        <item itemvalue="JUnit.ChangingUserDataTest" />
+        <item itemvalue="JUnit.ChangingUserDataTest.testUpdateUserNewDataReturnTrueAnd20" />
+        <item itemvalue="JUnit.ChangingUserDataTest.testUpdataDataUserNewDataWithoutAutorizReturnFalseAnd401" />
+        <item itemvalue="JUnit.ChangingUserDataTest.testUpdataDataUserNewDataReturnTrueAnd200" />
+        <item itemvalue="JUnit.UserLoginTest.testLoginUserIncorrectDataReturnErrorAnd401" />
       </list>
     </recent_temporary>
   </component>
@@ -99,11 +185,20 @@
       <option name="project" value="LOCAL" />
       <updated>1703690833865</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test : add tests classes for test">
+      <option name="closed" value="true" />
+      <created>1703696696487</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703696696487</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test : add JUnit 4, RestAssured, Allure and javafaker in pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="test : add JUnit 4, RestAssured, Allure and javafaker in pom" />
+    <MESSAGE value="test : add tests classes for test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test : add tests classes for test" />
   </component>
 </project>
