@@ -1,5 +1,6 @@
 package ru.yandex.practicum;
 
+import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
 import org.junit.After;
 import org.junit.Before;
@@ -23,6 +24,7 @@ public class ChangingUserDataTest {
     }
 
     @Test
+    @DisplayName("Изменение электронной почты юзера")
     public void testUpdateUserNewEmailReturnTrueAnd200() {
         DataForTests.createUserInApi(user);
         user.withEmail(UserGenerator.getRandomEmail());
@@ -33,6 +35,7 @@ public class ChangingUserDataTest {
     }
 
     @Test
+    @DisplayName("Изменение пароля юзера")
     public void testUpdateUserNewPasswordReturnTrueAnd200() {
         DataForTests.createUserInApi(user);
         user.withEmail(UserGenerator.getRandomPassword());
@@ -43,6 +46,7 @@ public class ChangingUserDataTest {
     }
 
     @Test
+    @DisplayName("Изменение имени юзера")
     public void testUpdateUserNewNameReturnTrueAnd200() {
         DataForTests.createUserInApi(user);
         user.withEmail(UserGenerator.getRandomName());
@@ -53,6 +57,7 @@ public class ChangingUserDataTest {
     }
 
     @Test
+    @DisplayName("Попытка изменения адреса электронной почты юзера на почту, которая уже занята")
     public void testUpdateUserBusyEmailReturnFalseAnd403() {
         DataForTests.createUserInApi(user);
         String tokenForDeleteFirstUser = DataForTests.accessToken;
@@ -68,6 +73,7 @@ public class ChangingUserDataTest {
     }
 
     @Test
+    @DisplayName("Попытка изменения электронной почты юзера без авторизации")
     public void testUpdateUserNewDataWithoutAutorizReturnFalseAnd401() {
         DataForTests.createUserInApi(user);
         user = UserGenerator.randomUser();
@@ -78,6 +84,7 @@ public class ChangingUserDataTest {
     }
 
     @Test
+    @DisplayName("Удаление юзера")
     public void testDeleteUserCreateUserAndDeleteReturnTrueAnd202() {
         DataForTests.createUserInApi(user);
 

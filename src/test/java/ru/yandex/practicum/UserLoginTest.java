@@ -1,5 +1,6 @@
 package ru.yandex.practicum;
 
+import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.After;
@@ -23,18 +24,24 @@ public class UserLoginTest {
     }
 
     @Test
+    @DisplayName("Логин юзера")
     public void testLoginUserCorrectDataReturnTokenAnd200() {
         DataForTests.createUserInApi(user);
         Response response = DataForTests.loginUserInApi(user);
-        response.then().statusCode(SC_OK).and().assertThat().body("accessToken", matchesRegex("^Bearer .*"));
+        response.then()
+                .statusCode(SC_OK)
+                .assertThat().body("accessToken", matchesRegex("^Bearer .*"));
     }
 
     @Test
+    @DisplayName("Попытка логина юзера с некоректными данными")
     public void testLoginUserIncorrectDataReturnErrorAnd401() {
         DataForTests.createUserInApi(user);
         user = UserGenerator.randomUser();
         Response response = DataForTests.loginUserInApi(user);
-        response.then().statusCode(SC_UNAUTHORIZED).and().assertThat().body("success", equalTo(false));
+        response.then()
+                .statusCode(SC_UNAUTHORIZED)
+                .assertThat().body("success", equalTo(false));
     }
 
     @After

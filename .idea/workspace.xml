@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8be96d25-8331-45c7-9e93-01cf467a5677" name="Changes" comment="style : little fix code style" />
+    <list default="true" id="8be96d25-8331-45c7-9e93-01cf467a5677" name="Changes" comment="docs : add allure report">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/order/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/order/IngredientListConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/order/Ingredients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/order/OrderFromUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/order/UserOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/DataForTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/DataForTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/ChangingUserDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/ChangingUserDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/CreateOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/CreateOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/CreatingUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/CreatingUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/ReceivingOrdersFromUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/ReceivingOrdersFromUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/UserLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practicum/UserLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/06ebdaa3-ff7e-46e3-9866-7c5413ab8fa4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3660c090-3ad6-4302-8956-473276071500-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/386cb815-2b63-4408-8d30-aeb75bfe5c6e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/75a6ebe6-a6cc-4d06-a09a-6228bc0233c6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/83670fed-3cd7-4da0-b9cb-d92fb87fb057-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/840d3b1a-88f1-4221-871f-e84ad30b407b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8898e5f3-ecf0-4ec8-a962-695e56a5accf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a413a4a4-152e-401f-8d9a-9401ddc93a2c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a87cfc28-e3a3-4603-a779-a15a0ae7bba3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d89df244-d07c-4800-a217-bb0cb13c4f88-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fd949e21-3436-42ad-b349-7d4e110b4d0c-result.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,37 +60,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.All in Diplom_2.executor": "Run",
-    "JUnit.ChangingUserDataTest.executor": "Run",
-    "JUnit.ChangingUserDataTest.testUpdataDataUserNewDataReturnTrueAnd200.executor": "Run",
-    "JUnit.ChangingUserDataTest.testUpdataDataUserNewDataWithoutAutorizReturnFalseAnd401.executor": "Run",
-    "JUnit.ChangingUserDataTest.testUpdateUserNewDataReturnTrueAnd20.executor": "Run",
-    "JUnit.CreatingUserTest.createUserTest.executor": "Run",
-    "JUnit.CreatingUserTest.deleteUserTest.executor": "Run",
-    "JUnit.CreatingUserTest.executor": "Run",
-    "JUnit.CreatingUserTest.loginUserTest.executor": "Run",
-    "JUnit.CreatingUserTest.testCreateUserAlreadyRegisteredDataReturnErrorAnd403.executor": "Run",
-    "JUnit.CreatingUserTest.testCreateUserNoPartDataReturnErrorAnd403.executor": "Run",
-    "JUnit.UserLoginTest.loginUserTest.executor": "Run",
-    "JUnit.UserLoginTest.testLoginUserIncorrectDataReturnErrorAnd401.executor": "Run",
-    "Maven.Diplom_2 [test].executor": "Run",
-    "Maven.Diplom_2 [verify].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop2",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Prod/Diplom/Diplom_2/src/main/java/ru/yandex/practicum/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in Diplom_2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChangingUserDataTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChangingUserDataTest.testUpdataDataUserNewDataReturnTrueAnd200.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChangingUserDataTest.testUpdataDataUserNewDataWithoutAutorizReturnFalseAnd401.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChangingUserDataTest.testUpdateUserNewDataReturnTrueAnd20.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.orderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.testOrderCorrectOrderReturnTrueAnd200.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.testOrderInvalidHashIngredientReturn500.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.testOrderWithoutIngredReturnFalseAnd400.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.testOrderWithoutIngredReturnFalseAnd500.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.testOrderWithoutIngredReturnTrueAnd200.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.testOrderWithoutIngredientsReturnFalseAnd400.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.testOrderСorrectOrderWithoutAutorizReturnTrueAnd200.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatingUserTest.createUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatingUserTest.deleteUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatingUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatingUserTest.loginUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatingUserTest.testCreateUserAlreadyRegisteredDataReturnErrorAnd403.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatingUserTest.testCreateUserNoPartDataReturnErrorAnd403.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReceivingOrdersFromUserTest.testGetOrderUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReceivingOrdersFromUserTest.testGetOrderUserAutorizedReturnThreeOrdersAnd200.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReceivingOrdersFromUserTest.testGetOrderUserNoAutorizedReturnThreeOrdersAnd200.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserLoginTest.loginUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserLoginTest.testLoginUserIncorrectDataReturnErrorAnd401.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ru.yandex.practicum in Diplom_2.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Diplom_2 [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Diplom_2 [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop2&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Prod/Diplom/Diplom_2/src/main/java/ru/yandex/practicum/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.ChangingUserDataTest">
-    <configuration name="ChangingUserDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.yandex.practicum.order" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CreatingUserTest.testCreateUserNoPartDataReturnErrorAnd403">
+    <configuration name="CreateOrderTest.testOrderCorrectOrderReturnTrueAnd200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <extension name="coverage">
         <pattern>
@@ -74,29 +117,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.yandex.practicum" />
-      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.ChangingUserDataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChangingUserDataTest.testUpdataDataUserNewDataReturnTrueAnd200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.yandex.practicum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.yandex.practicum" />
-      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.ChangingUserDataTest" />
-      <option name="METHOD_NAME" value="testUpdataDataUserNewDataReturnTrueAnd200" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.CreateOrderTest" />
+      <option name="METHOD_NAME" value="testOrderCorrectOrderReturnTrueAnd200" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangingUserDataTest.testUpdataDataUserNewDataWithoutAutorizReturnFalseAnd401" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreatingUserTest.testCreateUserNoPartDataReturnErrorAnd403" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <extension name="coverage">
         <pattern>
@@ -105,14 +133,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.yandex.practicum" />
-      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.ChangingUserDataTest" />
-      <option name="METHOD_NAME" value="testUpdataDataUserNewDataWithoutAutorizReturnFalseAnd401" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.CreatingUserTest" />
+      <option name="METHOD_NAME" value="testCreateUserNoPartDataReturnErrorAnd403" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangingUserDataTest.testUpdateUserNewDataReturnTrueAnd20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReceivingOrdersFromUserTest.testGetOrderUserAutorizedReturnThreeOrdersAnd200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <extension name="coverage">
         <pattern>
@@ -121,14 +149,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.yandex.practicum" />
-      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.ChangingUserDataTest" />
-      <option name="METHOD_NAME" value="testUpdateUserNewDataReturnTrueAnd20" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.ReceivingOrdersFromUserTest" />
+      <option name="METHOD_NAME" value="testGetOrderUserAutorizedReturnThreeOrdersAnd200" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserLoginTest.testLoginUserIncorrectDataReturnErrorAnd401" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReceivingOrdersFromUserTest.testGetOrderUserNoAutorizedReturnThreeOrdersAnd200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <extension name="coverage">
         <pattern>
@@ -137,20 +165,34 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.yandex.practicum" />
-      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.UserLoginTest" />
-      <option name="METHOD_NAME" value="testLoginUserIncorrectDataReturnErrorAnd401" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.ReceivingOrdersFromUserTest" />
+      <option name="METHOD_NAME" value="testGetOrderUserNoAutorizedReturnThreeOrdersAnd200" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.yandex.practicum in Diplom_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practicum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practicum" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ChangingUserDataTest" />
-        <item itemvalue="JUnit.ChangingUserDataTest.testUpdateUserNewDataReturnTrueAnd20" />
-        <item itemvalue="JUnit.ChangingUserDataTest.testUpdataDataUserNewDataWithoutAutorizReturnFalseAnd401" />
-        <item itemvalue="JUnit.ChangingUserDataTest.testUpdataDataUserNewDataReturnTrueAnd200" />
-        <item itemvalue="JUnit.UserLoginTest.testLoginUserIncorrectDataReturnErrorAnd401" />
+        <item itemvalue="JUnit.CreatingUserTest.testCreateUserNoPartDataReturnErrorAnd403" />
+        <item itemvalue="JUnit.ru.yandex.practicum in Diplom_2" />
+        <item itemvalue="JUnit.CreateOrderTest.testOrderCorrectOrderReturnTrueAnd200" />
+        <item itemvalue="JUnit.ReceivingOrdersFromUserTest.testGetOrderUserNoAutorizedReturnThreeOrdersAnd200" />
+        <item itemvalue="JUnit.ReceivingOrdersFromUserTest.testGetOrderUserAutorizedReturnThreeOrdersAnd200" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703785339190</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="docs : add allure report">
+      <option name="closed" value="true" />
+      <created>1703785682998</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703785682998</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -210,6 +260,7 @@
     <MESSAGE value="test : add tests classes for test" />
     <MESSAGE value="test : add tests create, login and update user" />
     <MESSAGE value="style : little fix code style" />
-    <option name="LAST_COMMIT_MESSAGE" value="style : little fix code style" />
+    <MESSAGE value="docs : add allure report" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs : add allure report" />
   </component>
 </project>

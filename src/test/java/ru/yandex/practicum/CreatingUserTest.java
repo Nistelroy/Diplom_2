@@ -1,5 +1,6 @@
 package ru.yandex.practicum;
 
+import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.After;
@@ -22,6 +23,7 @@ public class CreatingUserTest {
     }
 
     @Test
+    @DisplayName("Создание юзера")
     public void testCreateUserCorrectDataReturnTokenAnd200() {
         Response response = DataForTests.createUserInApi(user);
 
@@ -31,6 +33,7 @@ public class CreatingUserTest {
     }
 
     @Test
+    @DisplayName("Попытка оздания юзера, который уже зарегестрирован")
     public void testCreateUserAlreadyRegisteredDataReturnErrorAnd403() {
         DataForTests.createUserInApi(user);
         String tokenForDeleteUser = DataForTests.accessToken;
@@ -43,6 +46,7 @@ public class CreatingUserTest {
     }
 
     @Test
+    @DisplayName("Попытка оздания юзера без пароля")
     public void testCreateUserNoPartDataReturnErrorAnd403() {
         user.withPassword("");
         Response response = DataForTests.createUserInApi(user);
