@@ -101,8 +101,6 @@ public class DataForTests {
     public static Response loginUserInApi(User user) {
         return given()
                 .header("Content-Type", "application/json")
-                .header("Authorization", accessToken)
-                .and()
                 .body(user)
                 .when()
                 .post(URI_FOR_LOGIN_USER);
