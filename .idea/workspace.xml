@@ -4,36 +4,159 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8be96d25-8331-45c7-9e93-01cf467a5677" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="8be96d25-8331-45c7-9e93-01cf467a5677" name="Changes" comment="test : add order tests and allure annotation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2a8BDvBO4I7VpEKsieCxdB3XBZg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Prod/Diplom/Diplom_2/src/main/java/ru/yandex/practicum/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in Diplom_2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChangingUserDataTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChangingUserDataTest.testUpdataDataUserNewDataReturnTrueAnd200.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChangingUserDataTest.testUpdataDataUserNewDataWithoutAutorizReturnFalseAnd401.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChangingUserDataTest.testUpdateUserNewDataReturnTrueAnd20.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.orderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.testOrderCorrectOrderReturnTrueAnd200.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.testOrderInvalidHashIngredientReturn500.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.testOrderWithoutIngredReturnFalseAnd400.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.testOrderWithoutIngredReturnFalseAnd500.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.testOrderWithoutIngredReturnTrueAnd200.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.testOrderWithoutIngredientsReturnFalseAnd400.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderTest.testOrderСorrectOrderWithoutAutorizReturnTrueAnd200.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatingUserTest.createUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatingUserTest.deleteUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatingUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatingUserTest.loginUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatingUserTest.testCreateUserAlreadyRegisteredDataReturnErrorAnd403.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatingUserTest.testCreateUserNoPartDataReturnErrorAnd403.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReceivingOrdersFromUserTest.testGetOrderUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReceivingOrdersFromUserTest.testGetOrderUserAutorizedReturnThreeOrdersAnd200.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReceivingOrdersFromUserTest.testGetOrderUserNoAutorizedReturnThreeOrdersAnd200.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserLoginTest.loginUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserLoginTest.testLoginUserIncorrectDataReturnErrorAnd401.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ru.yandex.practicum in Diplom_2.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Diplom_2 [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Diplom_2 [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop2&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Prod/Diplom/Diplom_2/src/main/java/ru/yandex/practicum/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.yandex.practicum.order" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.practicum in Diplom_2">
+    <configuration name="All in Diplom_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreatingUserTest.testCreateUserNoPartDataReturnErrorAnd403" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practicum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practicum" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.CreatingUserTest" />
+      <option name="METHOD_NAME" value="testCreateUserNoPartDataReturnErrorAnd403" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserLoginTest.testLoginUserCorrectDataReturnTokenAnd200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practicum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practicum" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practicum.UserLoginTest" />
+      <option name="METHOD_NAME" value="testLoginUserCorrectDataReturnTokenAnd200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practicum in Diplom_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/ru/yandex/practicum" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.yandex.practicum in Diplom_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practicum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practicum" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.practicum in Diplom_2" />
+        <item itemvalue="JUnit.UserLoginTest.testLoginUserCorrectDataReturnTokenAnd200" />
+        <item itemvalue="JUnit.All in Diplom_2" />
+        <item itemvalue="JUnit.CreatingUserTest.testCreateUserNoPartDataReturnErrorAnd403" />
+        <item itemvalue="JUnit.ru.yandex.practicum in Diplom_2" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,17 +166,64 @@
       <option name="presentableId" value="Default" />
       <updated>1703690209772</updated>
     </task>
+    <task id="LOCAL-00001" summary="test : add JUnit 4, RestAssured, Allure and javafaker in pom">
+      <option name="closed" value="true" />
+      <created>1703690833865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703690833865</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test : add tests classes for test">
+      <option name="closed" value="true" />
+      <created>1703696696487</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703696696487</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test : add tests create, login and update user">
+      <option name="closed" value="true" />
+      <created>1703785235667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703785235667</updated>
+    </task>
+    <task id="LOCAL-00004" summary="style : little fix code style">
+      <option name="closed" value="true" />
+      <created>1703785339190</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703785339190</updated>
+    </task>
+    <task id="LOCAL-00005" summary="docs : add allure report">
+      <option name="closed" value="true" />
+      <created>1703785682998</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703785682998</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test : add order tests and allure annotation">
+      <option name="closed" value="true" />
+      <created>1703840819768</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703840819768</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/yandex/practicum/Main.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test : add JUnit 4, RestAssured, Allure and javafaker in pom" />
+    <MESSAGE value="test : add tests classes for test" />
+    <MESSAGE value="test : add tests create, login and update user" />
+    <MESSAGE value="style : little fix code style" />
+    <MESSAGE value="docs : add allure report" />
+    <MESSAGE value="test : add order tests and allure annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="test : add order tests and allure annotation" />
   </component>
 </project>
